@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class ConferenceController extends AbstractController
 {
-    #[Route('/', name: 'app_conference')]
+    #[Route('/', name: 'homepage')]
     public function index(): Response
     {
         return new Response(
